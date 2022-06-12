@@ -24,7 +24,7 @@ body {
     background-repeat: no-repeat;
     width: 425px;
     height: 650px;
-    padding: 250px 0 0 0;
+    padding: 225px 0 0 0;
     margin-top: 30px;
     border-radius: 15px;
     display: flex;
@@ -38,7 +38,26 @@ body {
 
 /* TITLE */
 
+h1 {
+    font-family: Red Hat Display, Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 25px;
+}
+
 /* DESCRIPTION */
+.descriptionContainer {
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    font-family: Red Hat Display, Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: hsl(224, 23%, 55%);
+    width: 75%;
+    text-align: center;
+}
 
 /* APP CARD */
 
@@ -46,6 +65,11 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
+    background-color: hsl(225, 100%, 98%);
+    width: 85%;
+    height: 100px;
+    margin: 10px 0 40px 0;
+    border-radius: 15px;
 }
 
 /* BUTTON */
