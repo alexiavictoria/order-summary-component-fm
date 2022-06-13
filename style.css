@@ -64,12 +64,47 @@ h2 {
 .appCard {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
     align-items: center;
     background-color: hsl(225, 100%, 98%);
     width: 85%;
-    height: 100px;
+    height: 95px;
     margin: 10px 0 40px 0;
     border-radius: 15px;
+}
+
+.appCardLeftSide {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.musicLogoIcon {
+    padding: 0 15px 0 0;
+}
+
+.annualPlan {
+    font-family: Red Hat Display, Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    margin: 0 0 9px 0;
+}
+
+.price {
+    font-family: Red Hat Display, Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: hsl(224, 23%, 55%);
+    margin: 0;
+}
+
+.changeButton {
+    font-family: Red Hat Display, Arial, Helvetica, sans-serif;
+    border: none;
+    background-color: hsl(225, 100%, 98%);
+    font-size: 14.5px;
+    color: hsl(245, 75%, 52%);
+    text-decoration: underline;
 }
 
 /* BUTTON */
